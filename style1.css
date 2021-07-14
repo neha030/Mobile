@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+  
+    overflow-x: hidden;
+}
+#navbar{
+    display:flex;
+    align-items:center;
+    position:relative;
+    top:0px;
+    height:88px;
+    background-color: #000066;
+}
+#navbar ul{
+    display:flex;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+#navbar::before{
+    
+    display:block;
+    position:absolute;
+    z-index:-1;
+    background: #000066;
+    opacity:1;
+    height:100%;
+    width:100%;
+    content:"";
+    top:0px;
+    left:0px;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:1.8rem;
+}
+#navbar ul li a{
+    color:black;
+    padding:3px 22px;
+    display:block;
+    text-decoration:none;
+    border-radius:20px;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: blanchedalmond;
+}
+
+ #section-container{
+    background-color: skyblue;
+   
+ }
+.pre{
+    padding:12px;
+    font-size:3.2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    color:rgb(37, 5, 179);
+    
+}
+.sec{
+    padding:12px;
+    font-size:1.8rem;
+   
+}
+.sec1{
+    padding:8px;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+}
+.sec2{
+    padding:3px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.sec3{
+    padding:3px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+#services{
+    display:flex;
+    margin:34px;
+  
+
+}
+#services .box{
+    border:2px solid rgb(37, 5, 179);
+    padding:34px ;
+    margin:5px;
+    border-radius:23px;
+   
+    background-color: skyblue;
+    
+}
+#services .box img{
+    height:160px;
+    margin:auto;
+    display:block;
+}
+#services .box p{
+    font-size:1rem;
+}
+
+.center{
+    text-align:center;
+}
+.btn1{
+    padding: 6px 20px;
+    background-color:rgb(100, 6, 92);
+    font-size:1.5rem;
+    margin:17px;
+    border:2px solid rgb(100, 6, 92);
+    color:black;
+    border-radius:10px;
+    cursor:pointer;
+    position: relative;
+    left:90px;
+}
+.btn2{
+    padding: 6px 20px;
+    background-color:rgb(100, 6, 92);
+    font-size:1.5rem;
+    margin:17px;
+    border:2px solid rgb(100, 6, 92);
+    color:black;
+    border-radius:10px;
+    cursor:pointer;
+    position: relative;
+    left:86px;
+}
+.btn3{
+    padding: 6px 20px;
+    background-color:rgb(100, 6, 92);
+    font-size:1.5rem;
+    margin:17px;
+    border:2px solid rgb(100, 6, 92);
+    color:black;
+    border-radius:10px;
+    cursor:pointer;
+    position: relative;
+    left:130px;
+    top:27px;
+}
+.btn4{
+    padding: 6px 20px;
+    background-color:rgb(100, 6, 92);
+    font-size:1.5rem;
+    margin:17px;
+    border:2px solid rgb(100, 6, 92);
+    color:black;
+    border-radius:10px;
+    cursor:pointer;
+    position: relative;
+    left:90px;
+    top:25px;
+}
